@@ -22,6 +22,5 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintrc.json
-package-lock.json
 /.vscode
 tsconfig.json
