@@ -1,0 +1,6 @@
+@import "./../../assets//_mixins";
+
+.home{
+  @include UIBlock;
+  width: 75vw;
+}

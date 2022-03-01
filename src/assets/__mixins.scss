@@ -1,0 +1,12 @@
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin UIBlock {
+  padding: 1vh 1vw;
+  border-radius: 10px;
+  background-color: rgb(150, 196, 197);
+}

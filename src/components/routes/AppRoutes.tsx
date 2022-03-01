@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import { Layout } from '../layout/Layout';
 import { routes } from './list';
 
 export const AppRoutes: FC = () => {
@@ -11,7 +12,17 @@ export const AppRoutes: FC = () => {
           return false;
         }
         return (
-          <Route path={route.path} key={`route ${route.path}`} element={<route.component />} />
+          <Route
+            path={route.path}
+            key={`route ${route.path}`}
+            element={
+              <>
+                <Layout>
+                  <route.component />
+                </Layout>
+              </>
+            }
+          />
         );
       })}
     </Routes>

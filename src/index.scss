@@ -1,0 +1,7 @@
+@import './assets/_mixins';
+
+*{
+  @include reset;
+  font-size: 1vmax;
+  font-family: 'Roboto Slab', serif;
+}

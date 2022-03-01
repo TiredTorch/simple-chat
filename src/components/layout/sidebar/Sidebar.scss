@@ -1,5 +1,7 @@
-*{
-  margin: 0;
-  padding: 0;
-  
+@import "./../../../assets//_mixins";
+
+.sidebar{
+  @include UIBlock;
+  width: 20vw;
+  height: 90vh;
 }
